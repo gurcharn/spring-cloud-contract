@@ -13,8 +13,10 @@ repositories {
 
 ext {
     springBootVersion = "1.5.9.RELEASE"
+    jacksonVersion = "2.3.0"
 }
 
 dependencies {
     compile group: "org.springframework.boot", name: "spring-boot-starter-web", version: "${springBootVersion}"
+    compile group: "javax.xml.bind", name: "jaxb-api", version: "${jacksonVersion}"
 }
