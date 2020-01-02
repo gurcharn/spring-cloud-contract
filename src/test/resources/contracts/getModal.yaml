@@ -1,0 +1,15 @@
+description: should return modal
+name: shouldReturnModal
+request:
+  urlPath: /endpoint
+  method: GET
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  headers:
+    Content-Type: application/json;charset=UTF-8
+  body:
+    id: 'id'
+    name: 'name'
+    description: 'description'
